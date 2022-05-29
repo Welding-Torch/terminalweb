@@ -264,33 +264,14 @@ function commandHandler(command, cmdline = true) {
     case "anas":
       addLine("Hi this is the Anas Khan command.");
       break;
-    case "repo":
-      addLine(
-        "[n/][clb]GitHub Repo: [link-https://github.com/woooferz/terminalweb]Terminal Web[/link][n/][n/]"
-      );
+    case "ninad":
+      addLine("Hi this is the Ninad Naik command.");
+      //addLine(
+      //  "[n/][clb]GitHub Repo: [link-https://github.com/woooferz/terminalweb]Terminal Web[/link][n/][n/]"
+      //);
       break;
-    case "changelog":
-      addLine("Changelog:");
-      addLine("[2s/]v0.4:");
-      addLine("[4s/]Added autocompletion");
-      addLine("[n/]");
-
-      addLine("[2s/]v0.3.1:");
-      addLine("[4s/]Added the repo command");
-      addLine("[4s/]Added repo to the wfetch command");
-
-      addLine("[2s/]v0.3:");
-      addLine("[4s/]Updated colours");
-      addLine("[4s/]Added support for advanced commands");
-      addLine("[n/]");
-      addLine("[2s/]v0.2.5:");
-      addLine("[4s/]Made it simpler to use links");
-      addLine("[2s/]v0.2.4:");
-      addLine("[4s/]Added history command");
-      addLine("[2s/]v0.2.3:");
-      addLine("[4s/]Added changelog command");
-      addLine("[2s/]v0.2.2:");
-      addLine("[4s/]Added credits command");
+    case "pranil":
+      addLine("Hi this is the Pranil Chitre command.");
       break;
     case "help":
       helpCommand("help", "Outputs help message (AKA [cb]this[/cb])");
@@ -300,10 +281,11 @@ function commandHandler(command, cmdline = true) {
       helpCommand("wfetch", "Waffle Fetch displays info");
       helpCommand("startup", "Says startup message");
       helpCommand("credits", "Displays credits");
-      helpCommand("changelog", "Changelog for Woof Terminal");
+      helpCommand("pranil", "Says something about Pranil Chitre");
       helpCommand("history", "Shows command history of current session");
       helpCommand("open", "Opens a new tab with passed in url");
-      helpCommand("repo", "Shows the github repos link");
+      helpCommand("ninad", "Says something about Ninad Naik");
+      helpCommand("sid", "Says something about Siddharth Bhatia");
 
       break;
     case "history":
@@ -326,8 +308,9 @@ function commandHandler(command, cmdline = true) {
         "[3s/]Ascii.co.uk for Waffle Ascii Art [clb][link-https://ascii.co.uk/art/waffle] Link[/link][/clb]"
       );
       break;
-    case "waffles":
-      addLine("Hello!");
+    case "sid":
+      addLine("Hi I'm Siddharth Bhatia, FE Artificial Intelligence and Data Science student.");
+      addLine("My Tech Stack is Python, see more at [clb][link-https://www.github.com/welding-torch/] Link[/link][/clb]");
       break;
     case "colors":
     case "colours":
