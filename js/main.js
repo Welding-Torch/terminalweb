@@ -21,6 +21,7 @@ let lengthOfPrefix = 0;
 
 let availableCommands = [
   "anas",
+  "sid",
   "help",
   "colors",
   "colours",
@@ -28,10 +29,10 @@ let availableCommands = [
   "wfetch",
   "startup",
   "credits",
-  "changelog",
+  "pranil",
   "history",
   "open",
-  "repo",
+  "ninad",
   "",
 ]; // Sets the available commands for the red stuff to work.
 
