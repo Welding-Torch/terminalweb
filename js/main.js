@@ -20,7 +20,7 @@ const autocomplete = document.querySelector("div#autocomplete");
 let lengthOfPrefix = 0;
 
 let availableCommands = [
-  "waffle",
+  "anas",
   "help",
   "colors",
   "colours",
@@ -261,8 +261,8 @@ function commandHandler(command, cmdline = true) {
   backIndex = 0;
 
   switch (command) {
-    case "waffle":
-      addLine("Yessir!");
+    case "anas":
+      addLine("Hi this is the Anas Khan command.");
       break;
     case "repo":
       addLine(
@@ -294,7 +294,7 @@ function commandHandler(command, cmdline = true) {
       break;
     case "help":
       helpCommand("help", "Outputs help message (AKA [cb]this[/cb])");
-      helpCommand("waffle", "Says if computer wants waffles are not");
+      helpCommand("Anas", "Says something about Anas Khan");
       helpCommand("colours", "Displays available colours");
       helpCommand("clear", "Clear the screen");
       helpCommand("wfetch", "Waffle Fetch displays info");
@@ -340,25 +340,25 @@ function commandHandler(command, cmdline = true) {
     case "wfetch":
       const wfetch = `
     [cy][4s/]_.-------._[/cy][5s/]
-    [n/]        
+    [n/]
     [cy][2s/].' _|_|_|_|_ '.[/cy][3s/]
-    [n/]    
-    [cy][s/]/ _|_|_|_|_|_|_ \\[/cy][2s/] [clb]Terminal:[/clb] [cg]Woof Terminal ${version}[/cg] 
+    [n/]
+    [cy][s/]/ _|_|_|_|_|_|_ \\[/cy][2s/] [clb]Terminal:[/clb] [cg]Woof Terminal ${version}[/cg]
     [n/]
     [cy]| |_|_|_|_|_|_|_| |[/cy][s/]     [clb]Theme:[/clb] [cg]Waffle Basic Theme[/cg]
     [n/]
     [cy]|_|_|_|_|_|_|_|_|_|[/cy][s/]     [clb]My Website:[/clb] [cg][link-https://wooferz.dev]wooferz.dev[/link][/cg]
-    [n/]      
+    [n/]
     [cy]| |_|_|_|_|_|_|_| |[/cy][s/]     [clb]Hardware:[/clb] [cg]Browser[/cg]
-    [n/]      
+    [n/]
     [cy]| |_|_|_|_|_|_|_| |[/cy][s/]     [clb]Repo:[/clb] [cg][link-https://github.com/woooferz/terminalweb]Github[/link][/cg]
-    [n/]     
+    [n/]
     [cy][s/]\\ -|_|_|_|_|_|- /[/cy][2s/]
-    [n/] 
+    [n/]
     [cy][2s/]'. -|_|_|_|- .'[/cy][3s/]
-    [n/]    
+    [n/]
     [cy][4s/]\`---------\`[/cy][5s/]
-    [n/]      
+    [n/]
       `;
       addLine(wfetch);
       break;
